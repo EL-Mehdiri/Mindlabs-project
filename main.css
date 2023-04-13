@@ -149,13 +149,12 @@ header .btn:hover {
 contact Section Start
 ======================================= */
 .contact {
-    background-color: #fafafa9f;
+    background-color: #eeeeeebc;
 }
 
 .section-contact {
     max-width: 100vw;
     transition: all 0.5s linear;
-    background-color: #f7f7f7a9;
 }
 
 
@@ -197,7 +196,7 @@ form {
     transform: translate(-50%, -10%);
     padding: 4rem 8rem;
     border-radius: 1rem;
-    background-color: #7d83ff55;
+    background-color: #82c1ee31;
     backdrop-filter: blur(8px);
     /* z-index: 9; */
     overflow: hidden;

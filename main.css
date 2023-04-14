@@ -121,7 +121,7 @@ header .btn:hover {
 .section_one {
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding: 10rem 0;
     background-color: #8f9195;
     gap: 100px;
 }
@@ -139,7 +139,7 @@ header .btn:hover {
 }
 
 .section_one .text {
-    margin-top: 90px;
+    margin-top: 1rem;
 }
 
 
@@ -222,6 +222,63 @@ form .btn {
 form .btn:hover {
     background-color: #EDF0F7;
     color: #000;
+}
+
+/* ////////////////////////////// */
+/* services */
+.card_container {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px;
+    align-items: center;
+    padding: 4rem;
+}
+
+.services .text_one {
+    width: 35%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10rem 0 2rem 0;
+    text-align: center;
+}
+
+.services .text_one h1 {
+    padding: 1rem;
+}
+
+.card_container .card {
+    align-items: center;
+    background-color: #f2f2f3;
+    padding: 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #00000034;
+}
+
+.card_container .card:hover {
+    transform: translateY(-3%);
+
+}
+
+
+.card_container .card p {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card_container .card h3 {
+    padding: 1.5rem 0;
+}
+
+.card_container .card i {
+    font-size: 2rem;
 }
 
 /* footer */

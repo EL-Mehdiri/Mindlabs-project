@@ -61,7 +61,6 @@ header {
     position: fixed;
     width: 95vw;
     z-index: 999;
-
 }
 
 header img {
@@ -276,7 +275,6 @@ contact Section Start
     width: 100%;
     margin-bottom: 2rem;
     outline: none;
-    /* background-color: #ffffff9c; */
     box-shadow: 0px 0px 30px #00000033;
 
 }
@@ -450,9 +448,6 @@ footer>p {
     padding-top: 4rem;
 }
 
-.color:hover {
-    color: #ff8000;
-}
 
 /* scoll bar */
 
